@@ -9,7 +9,6 @@ License:	GPL
 Group:		Development/Other
 URL:		http://home.gna.org/guile-lib/
 Source:		%{name}-%{version}.tar.bz2
-Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	texinfo
 Requires:	guile >= 1.6
 BuildArch:	noarch
