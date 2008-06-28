@@ -11,6 +11,7 @@ URL:		http://home.gna.org/guile-lib/
 Source:		http://download.gna.org/guile-lib/%{name}-%{version}.tar.gz
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	texinfo
+BuildRequires:	guile-devel
 Requires:	guile >= 1.6
 BuildArch:	noarch
 
