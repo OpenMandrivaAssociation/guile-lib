@@ -1,5 +1,5 @@
 %define	version	0.1.6
-%define release	%mkrel 1
+%define release	%mkrel 2
 
 Summary:	Library of useful guile modules
 Name:		guile-lib
