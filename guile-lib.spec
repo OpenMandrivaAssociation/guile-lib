@@ -1,15 +1,14 @@
-%define	version	0.1.6
-%define release	%mkrel 3
+%define	version	0.2.1
+%define release	1
 
 Summary:	Library of useful guile modules
 Name:		guile-lib
 Version:	%{version}
 Release:	%{release}
-License:	GPL
+License:	GPLv3
 Group:		Development/Other
-URL:		http://home.gna.org/guile-lib/
-Source:		http://download.gna.org/guile-lib/%{name}-%{version}.tar.gz
-Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+URL:		http://savannah.nongnu.org/projects/guile-lib
+Source:		http://download.savannah.gnu.org/releases/guile-lib/%{name}-%{version}.tar.gz
 BuildRequires:	texinfo
 BuildRequires:	guile-devel
 Requires:	guile >= 1.6
@@ -33,11 +32,7 @@ A set of various-purpose library modules for Guile. Covered areas include:
 %make
 
 %install
-rm -rf %{buildroot}
 %makeinstall_std
-
-%clean
-rm -rf %{buildroot}
 
 %post
 %_install_info guile-library.info
@@ -46,8 +41,10 @@ rm -rf %{buildroot}
 %_remove_install_info guile-library.info
 
 %files
-%defattr(-,root,root)
 %doc {AUTHORS,ChangeLog,NEWS,README}
 %{_infodir}/*.info*
 %{_datadir}/guile/site/*
+
+
+
 
