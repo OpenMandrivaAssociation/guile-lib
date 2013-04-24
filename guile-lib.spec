@@ -1,5 +1,5 @@
 %define	version	0.2.1
-%define release	1
+%define release 	2
 
 Summary:	Library of useful guile modules
 Name:		guile-lib
