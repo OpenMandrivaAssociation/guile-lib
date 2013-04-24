@@ -34,8 +34,6 @@ A set of various-purpose library modules for Guile. Covered areas include:
 %install
 %makeinstall_std
 
-%post
-%_install_info guile-library.info
 
 %preun
 %_remove_install_info guile-library.info
