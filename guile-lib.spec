@@ -1,10 +1,7 @@
-%define	version	0.2.1
-%define release 	2
-
 Summary:	Library of useful guile modules
 Name:		guile-lib
-Version:	%{version}
-Release:	%{release}
+Version:	0.2.1
+Release:	2
 License:	GPLv3
 Group:		Development/Other
 URL:		http://savannah.nongnu.org/projects/guile-lib
