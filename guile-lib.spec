@@ -4,7 +4,7 @@ Version:	0.2.1
 Release:	3
 License:	GPLv3
 Group:		Development/Other
-URL:		http://savannah.nongnu.org/projects/guile-lib
+URL:		https://savannah.nongnu.org/projects/guile-lib
 Source:		http://download.savannah.gnu.org/releases/guile-lib/%{name}-%{version}.tar.gz
 BuildRequires:	texinfo
 BuildRequires:	guile-devel
