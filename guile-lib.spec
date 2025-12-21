@@ -6,6 +6,11 @@ License:	GPLv3
 Group:		Development/Other
 URL:		https://savannah.nongnu.org/projects/guile-lib
 Source:		http://download.savannah.gnu.org/releases/guile-lib/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	texinfo
 BuildRequires:	guile-devel
 Requires:	guile >= 1.6
